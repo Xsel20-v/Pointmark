@@ -63,7 +63,7 @@ struct ContentView : View {
                             .scaledToFit()
                             .frame(width: 160)
                     }
-                    .rotationEffect(Angle(degrees: self.compassHeading.degrees))
+                    .rotationEffect(Angle(degrees: -self.compassHeading.degrees))
                 }
                 .padding(.top, 30)
                 
